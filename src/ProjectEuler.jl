@@ -1,5 +1,5 @@
 module ProjectEuler
-include("problems/P11.jl")
+include("problems/P16.jl")
 
 using BenchmarkTools
 
