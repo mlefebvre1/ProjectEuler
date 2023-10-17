@@ -8,3 +8,4 @@ ans() = begin
     return maximum([reduce(*, number[i-13:i-1], init=1) for i in 14:length(number)])
 end
 
+println(ans())

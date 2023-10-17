@@ -42,3 +42,5 @@ ans() = begin
     end
     return maximum(products)
 end
+
+println(ans())

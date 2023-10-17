@@ -19,13 +19,13 @@ function isprime(n)
         return false
     elseif n <= 3
         return true
-    elseif n % 2 == 0 || n % 3 == 0
+    elseif isdivisibleby(n, 2) || isdivisibleby(n, 3)
         return false
     end
 
     i = 5
     while i * i <= n
-        if n % i == 0 || n % (i + 2) == 0
+        if isdivisibleby(n, i) || isdivisibleby(n, i + 2)
             return false
         end
         i += 6

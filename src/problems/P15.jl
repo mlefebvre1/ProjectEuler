@@ -13,3 +13,5 @@ ans() = begin
     end
     grid[20, 20]
 end
+
+println(ans())

@@ -8,3 +8,4 @@ ans() = begin
     prod(triples[index], init=1)
 end
 
+println(ans())

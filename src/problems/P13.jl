@@ -3,3 +3,5 @@ ans() = begin
     total = sum([parse(BigInt, line) for line in readlines(f)])
     string(total)[1:10]
 end
+
+println(ans())

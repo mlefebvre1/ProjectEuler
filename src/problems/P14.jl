@@ -18,3 +18,5 @@ ans() = begin
     (_, max_n) = maximum(chains)
     max_n
 end
+
+println(ans())
